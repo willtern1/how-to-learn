@@ -8,24 +8,345 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+/* блок Хидер начало */
 
 .header {
+  display:flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
-
+.logo {
+  width: 183px;
+  height: 32px;
+}
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+.header__title {
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+.header__title_place {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left: 64px;
+}
+.header__subtitle {
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.header__subtitle_place {
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+}
+.header__link {
+  text-decoration: none;
+}
+.header__main-illustration {
+position: absolute;
+right: 0;
+bottom: 0;
+width: 765px;
+height: 608px;
+z-index: 1;
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background: #2f80ed;
+}
+.header__square-pic_place {
+  position: absolute;
+  top: 64px;
+  right: 0;
 }
 
+/*Конец блок ХИдер */
+
+/* Блок Описание */
+.description {
+  display: flex;
+  justify-content:center;
+  padding-top: 100px;
+
+}
+.two-columns {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+  padding-top: 30px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2F80ED;
+}
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 100px;
+}
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
+/*Конец блока Описание*/
+
+/* Блок Данные */
+
+.digits {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section-title {
+  width: 60%;
+  padding-top: 100px;
+  margin-bottom: 20px;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+.section-subtitle {
+  width: 60%;
+  margin-bottom: 60px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.table {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+
+}
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* Конец блока Данных */
+
+/*Начало сектора Фейнмана*/
+
+.feynman {
+  height: 790px;
+  box-sizing: border-box;
+  background-color: #F2F2F2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feynman__title {
+  width: 648px;
+  text-align: center;
+  margin-bottom: 70px;
+  z-index: 1;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+
+}
+.feynman__subtitle {
+  margin: 0;
+  z-index: 1;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+.feynman__link {
+  position: absolute;
+  bottom: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+}
+.feynman__image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* Конец секции Фейнмана*/
+
+/*Начало секции Кауфмана*/
+
+.kaufman {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.section-title{
+  width: 60%;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle {
+  width: 60%;
+  padding-top: 20px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.table_theme_dark {
+  z-index: 1;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__heading_theme_dark {
+  color: white;
+}
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+.table__text_theme_dark {
+  color: white;
+}
+
+.kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  top: 0px;
+  right: -210px;
+}
+
+/* Подвал */
+
+.footer {
+  min-height: 350px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.footer__columns {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__column_style {
+  list-style-type: none;
+  margin-left: -35px;
+}
+.footer__column {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+}
+.footer__column_content_copyright {
+  flex-basis: 711px;
+    position: relative;
+}
+.logo_place_footer {
+  height: 35px;
+  width: 183px;
+}
+.footer__author {
+  line-height: 25px;
+  position: absolute;
+  margin-top: 18px;
+  bottom: 18px;
+}
+.footer__column_content_info {
+
+}
+.footer__column-heading {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footer__column-links {
+  text-decoration: none;
+  color: white;
+}
+.footer__column_content_social {
+
+}
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
 }
