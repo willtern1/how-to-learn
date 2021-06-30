@@ -56,18 +56,19 @@
   text-decoration: none;
 }
 .header__main-illustration {
-position: absolute;
-right: 0;
-bottom: 0;
-width: 765px;
-height: 608px;
-z-index: 1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 765px;
+  height: 608px;
+  z-index: 2;
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
   background: #2f80ed;
+  z-index: 1;
 }
 .header__square-pic_place {
   position: absolute;
