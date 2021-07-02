@@ -37,21 +37,23 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-  left: 64px;
   z-index: 4;
   margin: 0;
   padding: 0;
+  margin-left: 64px;
 }
 
 .header__subtitle {
   width: 388px;
-  line-height: 25px;
+  position: absolute;
+  margin-left: 64px;
+  bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-size: 18px;
+  line-height: 25px;
   font-weight: normal;
   z-index: 3;
-  position: absolute;
-  left: 64px;
-  bottom: 30px;
 }
 .header__link {
   text-decoration: none;
@@ -110,6 +112,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin-top: 0px;
   margin-bottom: 30px;
 }
 .two-columns__paragraph:last-of-type {
@@ -139,6 +142,7 @@
 }
 .section-subtitle {
   width: 60%;
+  margin-top: 20px;
   margin-bottom: 0px;
   text-align: center;
   line-height: 34px;
@@ -157,17 +161,24 @@
 .table__cell {
   width: 250px;
   margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 20px;
 
 }
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 /* Конец блока Данных */
@@ -181,11 +192,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 90px;
+  padding-top: 100px;
 }
 .feynman__title {
   width: 648px;
   text-align: center;
+  margin-top: 100px;
   margin-bottom: 70px;
   z-index: 1;
   line-height: 1.15;
@@ -242,7 +254,6 @@
 
 .section-subtitle_theme_dark {
   width: 60%;
-  padding-top: 20px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -329,6 +340,7 @@
 .footer__column-heading {
   font-weight: bold;
   margin-bottom: 20px;
+  margin-top: 0px;
 }
 .footer__column-link {
   text-decoration: none;
