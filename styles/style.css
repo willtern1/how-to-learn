@@ -135,6 +135,7 @@
   width: 60%;
   padding-top: 100px;
   margin-bottom: 20px;
+  margin-top: 0;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
@@ -170,17 +171,19 @@
   font-size: 24px;
   font-weight: bold;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 
 }
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 0px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
-
+.table__text:last-of-type {
+  margin-bottom: 0px;
+}
 /* Конец блока Данных */
 
 /*Начало сектора Фейнмана*/
@@ -197,7 +200,7 @@
 .feynman__title {
   width: 648px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 0px;
   margin-bottom: 70px;
   z-index: 1;
   line-height: 1.15;
