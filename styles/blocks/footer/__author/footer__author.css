@@ -1,0 +1,7 @@
+.footer__author {
+  justify-content: space-between;
+  flex-direction: column;
+  line-height: 25px;
+  position: relative;
+  margin-top: 18px;
+}
