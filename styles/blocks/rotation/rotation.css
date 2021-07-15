@@ -1,4 +1,4 @@
-@keyframes header__square-pic-rotation{
+@keyframes rotation{
   from {
     transform: rotate(0%);
   }

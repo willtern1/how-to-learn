@@ -1,0 +1,10 @@
+.footer__column-link {
+  text-decoration: none;
+  color: white;
+  margin-left: 0px;
+  cursor: pointer;
+  transition: 1s linear;
+}
+.footer__column-link:hover {
+  opacity: .1;
+}
