@@ -1,4 +1,10 @@
 .resources__logo-zone {
   width: 1100px;
   margin: 80px auto 217px auto;
+  cursor: pointer;
+}
+
+.resources__logo-zone :hover {
+  opacity: .1;
+  transition: 1s linear;
 }

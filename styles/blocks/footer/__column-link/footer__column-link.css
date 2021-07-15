@@ -5,6 +5,7 @@
   cursor: pointer;
   transition: 1s linear;
 }
+
 .footer__column-link:hover {
   opacity: .1;
 }
