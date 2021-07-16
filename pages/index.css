@@ -33,8 +33,6 @@
 @import url(../styles/blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../styles/blocks/feynman/__link/feynman__link.css);
 @import url(../styles/blocks/digits/digits.css);
-@import url(../styles/blocks/section-title/section-title.css);
-@import url(../styles/blocks/section-subtitle/section-subtitle.css);
 @import url(../styles/blocks/table/table.css);
 @import url(../styles/blocks/table/__cell/table__cell.css);
 @import url(../styles/blocks/table/__heading/table__heading.css);
@@ -67,6 +65,6 @@
 @import url(../styles/blocks/footer/__column-link/footer__column-link.css);
 @import url(../styles/blocks/footer/__column-links/footer__column-links.css);
 @import url(../styles/blocks/footer/__column/footer__column.css);
-@import url(../styles/blocks/footer/__column/footer__column_content_copyright.css);
+@import url(../styles/blocks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(../styles/blocks/footer/__columns/footer__columns.css);
 @import url(../styles/blocks/footer/__social-icon/footer__social-icon.css);

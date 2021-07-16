@@ -4,6 +4,7 @@
   cursor: pointer;
   transition: 1s linear;
 }
+
 .header__link:hover {
   opacity: .1;
 }
