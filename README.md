@@ -1,3 +1,5 @@
+##  https://willtern1.github.io/how-to-learn/
+
 # how-to-learn
 How to learn
 1.Научиться учиться
