@@ -3,7 +3,7 @@
 # How to learn
 #### Одностраничный сайт о техниках обучения и методами борьбы с прокрастинацией
 
-## Стек HTML, CSS, FlexBox, Grid, CSS - animation;
+## Стек
 - HTML
 - CSS
 - FlexBox
